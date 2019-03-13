@@ -9,6 +9,9 @@ html{
     color: black;
     text-align: center
 }
+.bild1 {
+    float: left;
+}
 /*Huvudrubrik på sidan "Företaget AB" */
 .textformat1 {
     font-family: 'Courier New', Courier, monospace;
