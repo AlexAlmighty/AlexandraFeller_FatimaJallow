@@ -45,6 +45,7 @@ html{
 /*Text som fyller underrubrikerna med innehåll*/
 .textformat5 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px
 }
 
 /* Listor/bullets*/
@@ -54,4 +55,21 @@ ul {
 
 ul li {
     list-style-position: inside
+
+}
+
+.Bild2{
+    width: 200px;
+    height:200px;
+    padding: 10px;
+    float: left
+
+}
+
+.PowerBI {
+    border: 10px;
+    border-color: darkblue;
+    border-style: double;
+    padding: 40px
+    
 }
