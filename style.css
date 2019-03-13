@@ -1,0 +1,26 @@
+/*CSS-dokument till HTML-dokument*/
+
+/*Float teknik på samtliga delar i dokument*/
+
+/*Alla element skall utnyttja en eller flera utav border, margin, och padding egenskaperna.
+alla rubriker och textstycken i olika stil */
+html{
+    background-color: aqua
+}
+h1 {
+color: red;
+padding: 3px;
+text-align: center
+
+}
+
+h2{
+    color: black;
+    padding: 3px;
+    text-align: center
+
+}
+
+h3{
+color: red
+}
