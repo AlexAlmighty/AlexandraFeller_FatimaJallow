@@ -5,22 +5,53 @@
 /*Alla element skall utnyttja en eller flera utav border, margin, och padding egenskaperna.
 alla rubriker och textstycken i olika stil */
 html{
-    background-color: aqua
-}
-h1 {
-color: red;
-padding: 3px;
-text-align: center
-
-}
-
-h2{
+    background-color: white;
     color: black;
-    padding: 3px;
     text-align: center
+}
+/*Huvudrubrik på sidan "Företaget AB" */
+.textformat1 {
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 2px;
+    border-style: double;
+    border-color: black;
+    padding: 3px;
 
 }
 
-h3{
-color: red
+/* Underrubrik - företagets slogan*/
+.textformat6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+/*Underrubrikerna "om oss" och "tjänster" */
+.textformat2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 3px;
+
+}
+
+/* företagets adress*/
+.textformat3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/*Företagets organisationsnummer och firmanamn*/
+.textformat4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+/*Text som fyller underrubrikerna med innehåll*/
+.textformat5 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Listor/bullets*/
+ul {
+    padding-left:0;
+}
+
+ul li {
+    list-style-position: inside
 }
