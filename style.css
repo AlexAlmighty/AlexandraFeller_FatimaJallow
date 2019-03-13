@@ -9,6 +9,7 @@ html{
     color: black;
     text-align: center
 }
+
 /*Huvudrubrik på sidan "Företaget AB" */
 .textformat1 {
     font-family: 'Courier New', Courier, monospace;
@@ -24,6 +25,24 @@ html{
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
+.ulclass /* Det här är menyn */
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.meny
+{
+    float: left;
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 /*Underrubrikerna "om oss" och "tjänster" */
 .textformat2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
