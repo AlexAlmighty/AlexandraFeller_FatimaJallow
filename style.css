@@ -24,6 +24,23 @@ html{
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
+.ulclass /* Det här är menyn */
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.meny
+{
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 /*Underrubrikerna "om oss" och "tjänster" */
 .textformat2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
